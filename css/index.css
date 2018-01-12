@@ -1,0 +1,608 @@
+@import "base.css";
+@font-face {
+    font-family: 'iconfont';  /* project id 533803 */
+    src: url('http://at.alicdn.com/t/font_533803_ugqvqwlx1jrlik9.eot');
+    src: url('http://at.alicdn.com/t/font_533803_ugqvqwlx1jrlik9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_533803_ugqvqwlx1jrlik9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_533803_ugqvqwlx1jrlik9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_533803_ugqvqwlx1jrlik9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+i{
+    font-style: normal;
+}
+/*广告开始*/
+.header_top{
+    width: 100%;
+    height: 40px;
+    background-color: #444;
+}
+.header_top .main{
+    height: 100%;
+    margin: 0 auto;
+    line-height: 40px;
+}
+.header_top .main span{
+    color: #a8a8aa;
+    font-size: 12px;
+    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+}
+/*广告结束*/
+/*导航开始*/
+nav{
+    width: 100%;
+    height: 44px;
+    background-color: #333;
+}
+nav ul{
+    height: 44px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul a{
+    font-size: 14px;
+    color: #fff;
+    line-height: 44px;
+}
+nav ul i{
+    font-size: 14px;
+    color: #fff;
+    line-height: 44px;
+}
+nav ul a:hover{
+    color: #ccc;
+}
+nav ul a:hover i{
+    color: #ccc;
+}
+/*导航栏结束*/
+/*banner开始*/
+.banner{
+    width: 100%;
+    height: auto;
+}
+.banner li{
+    width: 100%;
+    background-color: #fafafa;
+    margin-bottom: 12px;
+    overflow: hidden;
+    position: relative;
+}
+.banner li a{
+    display: block;
+}
+.banner li h2{
+    color: #111111;
+    font-weight: 600;
+    text-align: center;
+}
+.banner li h3{
+    color: #111111;
+    font-weight: 600;
+    text-align: center;
+}
+.banner li div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner .iPhone8{
+    background-color: #F9F0EB;
+    margin-bottom: 0;
+}
+.banner .iPhone8 div{
+    bottom: 0;
+}
+/*banner结束*/
+/*产品开始*/
+.content{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.content li{
+    box-sizing: border-box;
+    border: 12px solid #fff;
+    border-bottom: 0;
+    background-color: #fafafa;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.content li:nth-child(2n){
+    border-left: 0;
+}
+.content li:nth-child(5),.content li:last-child{
+    border-bottom: 12px solid #fff;
+}
+.content li a{
+    display: block;
+}
+.content li h4{
+    color: #111;
+    font-weight: 600;
+    text-align: center;
+}
+.content li h5{
+    color: #111;
+    font-weight: 600;
+    text-align: center;
+}
+.content li div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*产品结束*/
+/*底部开始*/
+.Tab{
+    width: 100%;
+    height: 412px;
+    background: #F2F2F2;
+    padding-bottom: 12px;
+    overflow: hidden;
+}
+.Tab .Tab_box{
+    height: 286px;
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+}
+.Tab .Tab_box li{
+    height: 286px;
+}
+.Tab .Tab_box li div{
+    font-size: 10px;
+    color: #333333;
+    font-weight: bold;
+}
+.Tab .Tab_box li .word{
+    margin-top: 24px;
+}
+.Tab .Tab_box li a{
+    display: block;
+    margin-bottom: 2px;
+}
+.Tab .Tab_box li a span{
+    font-size: 10px;
+    color: #333;
+}
+.Tab .Tab_box li span:hover{
+    border-bottom: 1px solid #333;
+}
+.Tab .bottom{
+    height: 24px;
+}
+.Tab .bottom span{
+    font-size: 10px;
+    color: #888888;
+    padding-bottom: 5px;
+}
+.Tab .bottom a{
+    font-size: 10px;
+    color: #0070C9;
+}
+.Tab .bottom a:hover{
+    border-bottom: 1px solid #0070C9;
+}
+.Tab .bo2{
+    height: 23px;
+    margin: 0 auto;
+}
+.Tab .bo2 p{
+    font-size: 10px;
+    color: #888888;
+    margin-right: 30px;
+    margin-top: 5px;
+    float: left;
+}
+.Tab .bo2 a{
+    font-size: 10px;
+    color: #333;
+}
+.Tab .bo2 a:hover{
+    border-bottom: 1px solid #333;
+}
+.Tab .bo2 span{
+    padding: 0 12px;
+    font-size: 10px;
+    color: #D6D6D6;
+}
+.Tab .bo2 .img_box{
+    display: block;
+    width: 45px;
+    height: 17px;
+    margin-top: 3px;
+    float: right;
+    background: url('../img/i1.png') no-repeat center left;
+}
+.Tab .bo2 .img_box a{
+    font-size: 10px;
+    color: #333;
+    float: right;
+}
+.Tab .bo3{
+    height: 17px;
+    margin: 0 auto;
+}
+.Tab .bo3 span{
+    font-size: 10px;
+    color: #888888;
+}
+.Tab .bo3 a{
+    font-size: 10px;
+    color: #888888;
+}
+.Tab .bo3 a:hover{
+    border-bottom: 1px solid #888888;
+}
+
+/*底部结束*/
+/*>1024px*/
+@media screen and (min-width: 1024px){
+    .header_top .main{
+        width: 976px;
+    }
+    nav ul{
+        width: 976px;
+    }
+    .max_nav{
+        display: block;
+    }
+    .min_nav{
+        display: none;
+    }
+    .banner li{
+        height: 582px;
+    }
+    .banner li h2{
+        font-size: 40px;
+        line-height: 66px;
+        margin-top: 87px;
+    }
+    .banner li h3{
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .banner li div{
+        width: 909px;
+        height: 194px;
+        margin-top: 81px;
+        background: url("../img/iphone_x_large.jpg") no-repeat center center /909px 194px;
+        bottom: 111px;
+    }
+    .banner .iPhone8{
+        height: 577px;
+    }
+    .banner .iPhone8 div{
+        width: 561px;
+        height: 369px;
+        background: url("../img/iphone_8_large.jpg") no-repeat center center /561px 369px;
+        margin-top: 34px;
+    }
+    .content li{
+        width: 50%;
+        height: 598px;
+    }
+    .content li h4{
+        font-size: 28px;
+        line-height: 44px;
+        margin-top: 51px;
+    }
+    .content li h5{
+        font-size: 16px;
+        line-height: 36px;
+    }
+    .content li div{
+        width: 385px;
+        height: 304px;
+        background: url("../img/airpods_large.jpg") no-repeat center center /385px 304px;
+        margin-top: 71px;
+        bottom: 74px;
+    }
+    .Tab .Tab_box{
+        width: 980px;
+    }
+    .Tab .Tab_box li{
+        width: calc(980px / 5);
+    }
+    .Tab .bottom{
+        width: 980px;
+        margin: 25px auto 0;
+        border-bottom: 1px solid #D6D6D6;
+    }
+    .Tab .bo2{
+        width: 980px;
+    }
+    .Tab .bo3{
+        width: 980px;
+    }
+    .Tab_xiao{
+        display: none;
+    }
+
+}
+/*768px-1024px*/
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .header_top .main{
+        padding: 0 16px;
+    }
+    nav ul{
+        padding: 0 16px;
+    }
+    .max_nav{
+        display: block;
+    }
+    .min_nav{
+        display: none;
+    }
+    .banner li{
+        height: 570px;
+    }
+    .banner li h2{
+        font-size: 32px;
+        line-height: 51px;
+        margin-top: 100px;
+    }
+    .banner li h3{
+        font-size: 18px;
+        line-height: 37px;
+    }
+    .banner li div{
+        width: 704px;
+        height: 148px;
+        margin-top: 91px;
+        background: url("../img/iphone_x_large.jpg") no-repeat center center /704px 148px;
+        bottom: 143px;
+    }
+    .banner .iPhone8{
+        height: 569px;
+    }
+    .banner .iPhone8 div{
+        width: 549px;
+        height: 388px;
+        background: url("../img/iphone_8_medium.jpg") no-repeat center center /549px 388px;
+        margin-top: 27px;
+    }
+    .content li{
+        width: 50%;
+        height: 508px;
+    }
+    .content li h4{
+        font-size: 23px;
+        line-height: 35px;
+        margin-top: 42px;
+    }
+    .content li h5{
+        font-size: 16px;
+        line-height: 31px;
+    }
+    .content li div{
+        width: 269px;
+        height: 212px;
+        background: url("../img/airpods_medium.jpg") no-repeat center center /269px 212px;
+        margin-top: 84px;
+        bottom: 84px;
+    }
+    .Tab .Tab_box{
+        width: 100%;
+        padding: 30px 16px 0 16px;
+        box-sizing: border-box;
+    }
+    .Tab .Tab_box li{
+        width: 20%;
+    }
+    .Tab .bottom{
+        width: auto;
+        padding: 0 16px;
+        margin-top: 50px;
+        border-bottom: 1px solid #D6D6D6;
+        box-sizing: border-box;
+    }
+    .Tab .bo2{
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+    .Tab .bo3{
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+    .Tab_xiao{
+        display: none;
+    }
+}
+/*!*<768px*!{*/
+@media screen and (max-width: 768px){
+    .header_top .main{
+        padding: 0 16px;
+    }
+    nav ul{
+        padding: 0 16px;
+    }
+    .max_nav{
+        display: none;
+    }
+    .min_nav{
+        display: block;
+    }
+    .banner li{
+        height: 500px;
+        margin-bottom: 12px;
+    }
+    .banner li h2{
+        font-size: 23px;
+        line-height: 39px;
+        margin-top: 38px;
+    }
+    .banner li h3{
+        font-size: 14px;
+        line-height: 33px;
+    }
+    .banner li div{
+        width: 167px;
+        height: 333px;
+        margin-top: 20px;
+        background: url("../img/iphone_x_small.jpg") no-repeat center center /167px 333px;
+        bottom: 39px;
+    }
+    .banner .iPhone8{
+        height: 498px;
+    }
+    .banner .iPhone8 div{
+        width: 267px;
+        height: 357px;
+        background: url("../img/iphone_8_small.jpg") no-repeat center center /267px 357px;
+        margin-top: 27px;
+    }
+    .content li{
+        width: 100%;
+        height: 512px;
+    }
+    .content li h4{
+        font-size: 23px;
+        line-height: 35px;
+        margin-top: 42px;
+    }
+    .content li h5{
+        font-size: 16px;
+        line-height: 31px;
+    }
+    .content li div{
+        width: 244px;
+        height: 193px;
+        background: url("../img/airpods_small.jpg") no-repeat center center /244px 193px;
+        margin-top: 101px;
+        bottom: 104px;
+    }
+    .Tab{
+        display: none;
+    }
+    .Tab_xiao{
+        width: 100%;
+        height: 435px;
+        padding: 0 16px;
+        box-sizing: border-box;
+        background: #F2F2F2;
+    }
+    .Tab_xiao .oo_box{
+        width: 100%;
+        height: 18px;
+        padding: 10px 0;
+        border-bottom: 1px solid #D6D6D6;
+    }
+    .Tab_xiao .oo_box a{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .Tab_xiao .oo_box a span{
+        font-size: 12px;
+        color: #333;
+    }
+    .Tab_xiao .oo_box a span:first-child{
+        float: left;
+    }
+    .Tab_xiao .oo_box a span:last-child{
+        font-size: 14px;
+        color: #333;
+        float: right;
+    }
+    .Tab_xiao .oo_box a:hover span{
+        color: #000;
+    }
+    .Tab_xiao .oo_bottom{
+        width: 100%;
+        height: 126px;
+        padding-top: 17px;
+    }
+    .Tab_xiao .oo_bottom .b_one{
+        width: 100%;
+        height: 17px;
+        padding-bottom: 6px;
+        margin-bottom: 7px;
+    }
+    .Tab_xiao .oo_bottom .b_one span{
+        font-size: 10px;
+        color: #888888;
+        padding-bottom: 5px;
+    }
+    .Tab_xiao .oo_bottom .b_one a{
+        font-size: 10px;
+        color: #0070C9;
+    }
+    .Tab_xiao .oo_bottom .b_one a:hover{
+        border-bottom: 1px solid #0070C9;
+    }
+    .Tab_xiao .oo_bottom .b_two{
+        width: 100%;
+        height: 17px;
+        padding-top: 5px;
+        margin-top: 3px;
+    }
+    .Tab_xiao .oo_bottom .b_two .img_he{
+        width: 45px;
+        height: 17px;
+        background: url('../img/i1.png') no-repeat center left;
+    }
+    .Tab_xiao .oo_bottom .b_two .img_he a{
+        font-size: 10px;
+        color: #333;
+        float: right;
+    }
+    .Tab_xiao .oo_bottom .b_two .img_he a:hover{
+        border-bottom: 1px solid #888888;
+    }
+    .Tab_xiao .oo_bottom .b_three{
+        width: 100%;
+        height: 17px;
+        margin-top: 3px;
+    }
+    .Tab_xiao .oo_bottom .b_three span{
+        font-size: 10px;
+        color: #888888;
+    }
+    .Tab_xiao .oo_bottom .b_four{
+        width: 100%;
+        height: 20px;
+        margin-top: 3px;
+    }
+    .Tab_xiao .oo_bottom .b_four a{
+        font-size: 10px;
+        color: #333;
+    }
+    .Tab_xiao .oo_bottom .b_four a:hover{
+        border-bottom: 1px solid #333;
+    }
+    .Tab_xiao .oo_bottom .b_four span{
+        padding: 0 12px;
+        font-size: 10px;
+        color: #D6D6D6;
+    }
+    .Tab_xiao .oo_bottom .b_five{
+        width: 100%;
+        height: 17px;
+    }
+    .Tab_xiao .oo_bottom .b_five span{
+        font-size: 10px;
+        color: #888888;
+    }
+    .Tab_xiao .oo_bottom .b_five a{
+        font-size: 10px;
+        color: #888888;
+    }
+    .Tab_xiao .oo_bottom .b_five a:hover{
+        border-bottom: 1px solid #888888;
+    }
+}
+
+
